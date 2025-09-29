@@ -23,10 +23,74 @@
         <!-- Current Project Section -->
         <div class="max-w-4xl mx-auto">
             <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 transition-all duration-300">
-                <div class="aspect-video bg-gradient-to-br from-green-600 to-blue-600 relative overflow-hidden">
-                    <div class="absolute inset-0 bg-black/20"></div>
+                <div class="aspect-video relative overflow-hidden bg-gray-100">
+                    <!-- Simulated Dashboard Background -->
+                    <div class="absolute inset-0 bg-gray-100">
+                        <!-- Red Header -->
+                        <div class="absolute top-3 left-3 right-3 h-10 bg-red-500 rounded flex items-center px-3">
+                            <div class="w-4 h-4 bg-white rounded-full mr-2"></div>
+                            <div class="text-white font-bold text-xs">CLASSROOM OCCUPANCY SYSTEM</div>
+                            <div class="ml-auto flex space-x-1">
+                                <div class="w-3 h-3 bg-white/70 rounded"></div>
+                                <div class="w-3 h-3 bg-white/70 rounded"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Dashboard Title -->
+                        <div class="absolute top-16 left-0 right-0 text-center">
+                            <div class="text-red-500 font-bold text-sm mb-1">DASHBOARD</div>
+                            <div class="text-gray-600 text-xs">Sunday, September 28, 2025 | 06:10:19 PM</div>
+                        </div>
+                        
+                        <!-- Controls -->
+                        <div class="absolute top-28 left-3 right-3 flex justify-between">
+                            <div class="bg-white border border-gray-300 rounded px-2 py-1 text-xs text-gray-700">All Departments</div>
+                            <div class="bg-white border border-gray-300 rounded px-2 py-1 text-xs text-gray-500 w-32">Search classrooms...</div>
+                        </div>
+                        
+                        <!-- Available Section -->
+                        <div class="absolute top-36 left-3 right-3">
+                            <div class="bg-red-500 rounded px-2 py-1 text-white font-bold text-xs mb-2">Available Classrooms • 17</div>
+                        </div>
+                        
+                        <!-- Cards Grid -->
+                        <div class="absolute top-44 left-3 right-3 bottom-3 grid grid-cols-3 gap-2">
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">AutoMotive Room 1</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                                <div class="text-red-500 text-xs">Click to view schedule</div>
+                            </div>
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">Automotive Room 101</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                                <div class="text-red-500 text-xs">Click to view schedule</div>
+                            </div>
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">Chem Lab 1</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                                <div class="text-red-500 text-xs">Click to view schedule</div>
+                            </div>
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">Computer Laboratory 2</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                            </div>
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">Computer Laboratory 3</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                            </div>
+                            <div class="bg-white rounded border border-gray-200 p-2">
+                                <div class="text-gray-800 font-semibold text-xs">ECE1</div>
+                                <div class="text-green-600 text-xs">Available</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Blur and Darken Overlay -->
+                    <div class="absolute inset-0 backdrop-blur-sm bg-black/40"></div>
+                    
+                    <!-- Center Content -->
                     <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-white text-2xl font-bold text-center">Classroom<br>Occupancy<br>System</div>
+                        <div class="text-white text-2xl font-bold text-center drop-shadow-2xl">Classroom<br>Occupancy<br>System</div>
                     </div>
                 </div>
                 <div class="p-8">
@@ -40,15 +104,14 @@
                         A comprehensive system for monitoring and managing classroom occupancy at Technological University of the Philippines Visayas. 
                         Developed as our thesis project for Computer Engineering Technology program.
                     </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="grid grid-cols-2 gap-8 mb-6">
                         <div>
                             <h4 class="text-white font-semibold mb-3">Technologies Used</h4>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300">PHP</span>
-                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300">MySQL</span>
-                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300">HTML/CSS</span>
-                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300">JavaScript</span>
-                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300">Bootstrap</span>
+                            <div class="grid grid-cols-2 gap-2">
+                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300 text-center">PHP</span>
+                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300 text-center">MySQL</span>
+                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300 text-center">HTML/CSS</span>
+                                <span class="px-3 py-1 bg-white/10 rounded-full text-xs text-gray-300 text-center">JavaScript</span>
                             </div>
                         </div>
                         <div>

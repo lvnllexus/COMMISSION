@@ -102,12 +102,12 @@
                 Our <span class="gradient-text">Team</span>
             </h2>
             <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                We're building our team of talented professionals. Stay tuned!
+                Meet the founders behind WebCraft
             </p>
         </div>
         
-        <!-- Team Placeholder -->
-        <div class="max-w-2xl mx-auto">
+        <!-- Team Background -->
+        <div class="max-w-4xl mx-auto mb-16">
             <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-12 text-center">
                 <div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,6 +123,28 @@
                     Our thesis project, the Classroom Occupancy System, demonstrates our ability to create practical, 
                     real-world solutions using modern web technologies.
                 </p>
+            </div>
+        </div>
+        
+        <!-- Team Members -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Pacilan, Brian Nicholas</h3>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Rome, John Michael</h3>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Catindoy, Jireh</h3>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Almaiz, Rene Alexis</h3>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Raquinel, Kurt John</h3>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-300">
+                <h3 class="text-xl font-semibold text-white">Baterna, John RV</h3>
             </div>
         </div>
     </div>
